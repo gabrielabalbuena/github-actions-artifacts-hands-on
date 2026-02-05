@@ -27,7 +27,7 @@ jobs:
       - name: Download the file
         uses: actions/download-artifact@v5
         with:
-          name: hello-text-file
+          name: hello-artifact
           path: ./artifacts
 
       - name: Display file content
